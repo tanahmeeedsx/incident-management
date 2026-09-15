@@ -8,17 +8,17 @@ A mini PagerDuty-style **Incident Management & On-Call Tracker** built with the 
 
 ## Features
 
-* 🔐 JWT authentication
-* 🚨 Incident reporting with severity levels: Low, Medium, High, Critical
-* 👨‍💻 Engineer assignment from the On-Call Roster
-* 📋 Kanban workflow: Open → Investigating → Resolved
-* 💬 Timeline comments with searchable `@mentions`
-* 🔔 In-app notifications
-* ⏰ Background reminders for stale high-severity incidents
-* 📝 Root cause and resolution notes
-* 📄 Postmortem action items with PDF export
-* 📊 Dashboard metrics including MTTR
-* 👥 Admin roster management
+*  JWT authentication
+*  Incident reporting with severity levels: Low, Medium, High, Critical
+*  Engineer assignment from the On-Call Roster
+*  Kanban workflow: Open → Investigating → Resolved
+*  Timeline comments with searchable `@mentions`
+*  In-app notifications
+*  Background reminders for stale high-severity incidents
+*  Root cause and resolution notes
+*  Postmortem action items with PDF export
+*  Dashboard metrics including MTTR
+*  Admin roster management
 
 ---
 
