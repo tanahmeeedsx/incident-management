@@ -1,16 +1,8 @@
-# 🚨 IncidentOps — Reliability Command Center
+# IncidentOps — MERN Incident Management & On-Call Tracker
 
 **A mini PagerDuty-style incident management & on-call tracking system**, deployed end-to-end on AWS EC2 as a hands-on DevOps project — from provisioning the server, to breaking things, to fixing them properly.
 
 > 🔧 The application codebase (React/Express/MongoDB) started from a DevOps training template. **Everything from "The Deployment Journey" onward is my own independent work** — infrastructure setup, configuration, and real production-style debugging on AWS.
-
-<p align="center">
-  <img src="./screenshots/dashboard.png" alt="Dashboard screenshot" width="800"/>
-</p>
-
-<p align="center">
-  <em>📸 Add your own screenshots to a <code>/screenshots</code> folder in the repo — see the <a href="#-screenshots">Screenshots</a> section below for exactly which shots to capture.</em>
-</p>
 
 ---
 
@@ -19,7 +11,6 @@
 - [Why This Project Matters (for DevOps)](#-why-this-project-matters-for-devops)
 - [What the App Actually Does — In an Incident](#-what-the-app-actually-does--in-an-incident)
 - [Live Demo](#-live-demo)
-- [Screenshots](#-screenshots)
 - [Tech Stack & Tools](#-tech-stack--tools)
 - [Architecture](#-architecture)
 - [The Deployment Journey — Problems I Hit & How I Fixed Them](#-the-deployment-journey--problems-i-hit--how-i-fixed-them)
@@ -76,29 +67,7 @@ This is exactly the kind of tool a DevOps/SRE team leans on daily to keep accoun
 - **Backend health check:** `http://<EC2-PUBLIC-IP>:5001/api/health`
 - **Demo login:** `admin@auto-reliability.com` / `hello123`
 
-> ⚠️ The EC2 instance isn't kept running 24/7 to avoid unnecessary AWS billing. If the link is down, the screenshots below and the walkthrough in this README cover the full experience — happy to spin it back up on request.
-
----
-
-## 📸 Screenshots
-
-*(Add these to a `/screenshots` folder and reference them here — this is what makes a README actually "land" for someone scrolling through)*
-
-| Screenshot | What to capture |
-|---|---|
-| `dashboard.png` | Main dashboard with MTTR + incident stats |
-| `kanban.png` | Kanban board with incidents in different status columns |
-| `incident-detail.png` | A single incident open, showing timeline comments and an `@mention` in progress |
-| `mention-notification.png` | The in-app notification popup after being `@mentioned` |
-| `postmortem-pdf.png` | An exported postmortem PDF |
-| `roster.png` | The On-Call Roster / admin user management page |
-| `login.png` | The login screen |
-
-```md
-<!-- Example embed once you have the images -->
-![Dashboard](./screenshots/dashboard.png)
-![Kanban Board](./screenshots/kanban.png)
-```
+> ⚠️ The EC2 instance isn't kept running 24/7 to avoid unnecessary AWS billing. The walkthrough in this README covers the full experience — happy to spin it back up on request.
 
 ---
 
@@ -343,7 +312,6 @@ incident-management/
 │   │   ├── services/
 │   │   └── styles.css
 │   └── public/
-├── screenshots/          ← add your images here
 ├── installer.sh
 ├── package.json
 └── README.md
