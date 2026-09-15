@@ -1,4 +1,4 @@
-# IncidentOps — MERN Incident Management & On-Call Tracker
+# 🚨 IncidentOps — MERN Incident Management & On-Call Tracker
 
 **A mini PagerDuty-style incident management & on-call tracking system**, deployed end-to-end on AWS EC2 as a hands-on DevOps project — from provisioning the server, to breaking things, to fixing them properly.
 
